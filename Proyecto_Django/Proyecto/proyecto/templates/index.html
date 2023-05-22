@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+{% load static %}
+{% block header_title %}
+
+<head>
+<style>body {
+background-color: rgb(207, 170, 241);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+</style>
+
+</head>
+{% endblock %}
+
+
+{% block content %}
+
+<body>
+
+
+    <h1>Curriculum - Ana Carina Peña Lopez</h1>
+   <b>{{ nombre }}
+    {{ primer_apellido }}
+    {{ segundo_apellido }}</b>
+    <br><br>
+    <b>{{cel}}</b>{{ celular }}
+    <br>
+    <b>{{cor}}</b>{{ correo }}
+    <br>
+    <b>{{dom}}</b>{{ domicilio }}
+    <br>
+    <b>{{sex}}</b>{{ sexo }}
+    <br>
+    <b>{{obj}}</b>{{ objetivo }}
+    <br>
+    <b>{{sal_esp}}</b>{{ salario_esperado }}
+
+   
+    <p>This is a paragraph.</p>
+    {{data}}
+ 
+
+</body>
+
+    
+
+
+
+
+{% endblock %}
+
+</html>
