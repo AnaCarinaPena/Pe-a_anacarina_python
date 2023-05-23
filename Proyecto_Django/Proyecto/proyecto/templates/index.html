@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+{% load static %}
+{% block header_title %}
+
+<head>
+<style>body {
+background-color: rgb(151, 178, 233);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+</style>
+
+</head>
+{% endblock %}
+
+
+{% block content %}
+
+<body>
+
+
+    <h1 style ="font-size:300%;"> Curriculum - Ana Carina Peña Lopez</h1>
+   <b h3 style="color:aliceblue">{{ nombre }}
+    {{ primer_apellido }}
+    {{ segundo_apellido }}</b>
+    <br><br>
+    <b>{{fecha_n}}</b>{{ fecha_nacimiento }}
+    <br><br>
+    <b>{{cel}}</b>{{ celular }}
+    <br><br>
+    <b>{{cor}}</b>{{ correo }}
+    <br><br>
+    <b>{{dom}}</b>{{ domicilio }}
+    <br><br>
+    <b>{{sex}}</b>{{ sexo }}
+    <br><br>
+    <b>{{obj}}</b>{{ objetivo }}
+    <br><br>
+    <b>{{sal_esp}}</b>{{ salario_esperado }}
+    <br><br>
+
+    <!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<table style="width:10%">
+  <tr>
+    <th>Skills</th>
+  </tr>
+  <tr>
+    <td> Toma de decisiones </td>
+  </tr>
+  <tr>
+    <td>Trabajo en Equipo</td>
+  </tr>
+  <tr>
+    <td> Poder de Negociacion </td>
+  </tr>
+  <tr>
+    <td> Pensamiento Critico </td>
+  </tr>
+</table>
+
+<h1 style ="font-size:100%;"> Trabajos </h1>
+
+<p>  
+    <b>{{año_inicio_1}} - {{año_fin_1}}</b> {{lugar_trabajo1}} {{puesto_1}} <br><br>
+    <b>{{año_inicio_2}} - {{año_fin_2}}</b> {{lugar_trabajo2}} {{puesto_2}} 
+<p> 
+
+    <p>    </p>
+    {{data}}
+ 
+</body>
+
+<p><a href="https://www.linkedin.com/in/ana-carina-pe%C3%B1a-l%C3%B3pez-0682b816a/">More in: https://www.linkedin.com/in/ana-carina-pe%C3%B1a-l%C3%B3pez-0682b816a//!</a></p>
+
+</body>
+</html>
+
+
+{% endblock %}
+
+</html>
